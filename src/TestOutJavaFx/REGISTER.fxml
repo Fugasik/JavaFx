@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.162" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TestOutJavaFx.REGISTERController">
+   <children>
+      <TextField layoutX="181.0" layoutY="135.0" prefHeight="26.0" prefWidth="237.0" promptText="Login" />
+      <TextField layoutX="181.0" layoutY="200.0" prefHeight="26.0" prefWidth="238.0" promptText="Password" />
+      <TextField layoutX="180.0" layoutY="261.0" prefHeight="26.0" prefWidth="238.0" promptText="Email" />
+      <Button layoutX="70.0" layoutY="324.0" mnemonicParsing="false" onAction="#openFirstScene" prefHeight="37.0" prefWidth="122.0" text="Main menu" />
+      <Button layoutX="446.0" layoutY="324.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="122.0" text="Submit" />
+   </children>
+</AnchorPane>
