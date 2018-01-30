@@ -31,14 +31,15 @@ public class GUI extends Application {
         // Injecting first scene into the controller of the second scene
         REGISTERController secondPaneController = secondPageLoader.getController();
         secondPaneController.setFirstScene(firstScene);
-
+        // Set title
         primaryStage.setTitle("Main menu");
-
+        // Set primary Scene
         primaryStage.setScene(firstScene);
+        // Show Scene
         primaryStage.show();
 
     }
-
+        // Launch app
     public static void main(String[] args) {
         launch(args);
     }
